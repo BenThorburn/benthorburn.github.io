@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<head>
+		<title>Ben Thorburn</title>
+		<meta charset="utf-8">
+		<meta data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"rel="stylesheet">
+		<link rel="preload" href="style.css" as="style">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preload" href="m.style.css" as="style">
+		<link rel="stylesheet" href="m.style.css">
+  </head>
+	<body class="bg-night overflow-x-hidden">
+		<div>
+			<div class="fluid-shape l1">
+				<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" 				
+						opacity="0.3" class="shape-fill"></path>
+				</svg>
+			</div>
+			<div class="fluid-shape l2">
+				<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"			
+						opacity="0.8" class="shape-fill"></path>
+				</svg>
+			</div>
+			<div class="fluid-shape l3">
+				<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+						class="shape-fill"></path>
+
+					<linearGradient id="gradient-horizontal">
+						<stop offset="0%" stop-color="var(--color-stop-1)" />
+						<stop offset="50%" stop-color="var(--color-stop-2)" />
+						<stop offset="100%" stop-color="var(--color-stop-3)" />
+					</linearGradient>
+					
+					<linearGradient id="gradient-vertical" x2="0" y2="1">
+						<stop offset="0%" stop-color="var(--color-stop-1)" />
+						<stop offset="50%" stop-color="var(--color-stop-2)" />
+						<stop offset="100%" stop-color="var(--color-stop-3)" />
+					</linearGradient>
+				</svg>
+			</div>
+		</div>
+	<div class="circleBase circle1"><img class="circleBase circle1 myimg" src="waffer.jpg"></div>
+	<div class="relative flex flex-col w-screen mx-auto font-sans text-base max-w-1440 text-dawn md:flex-row">
+		<div class="md:hidden">
+			<div class="fixed top-0 left-0 z-30 w-full h-64 transition bg-dusk -shift-y-64"></div>
+			<div class="fixed top-0 left-0 z-50 w-full h-64 transition -shift-y-64">
+				<div class="absolute top-0 w-full h-24 gradient-y-dusk-transparent"></div>
+				<div class="absolute bottom-0 w-full h-24 gradient-y-transparent-dusk"></div>
+			</div>
+			<div class="fixed top-0 left-0 z-50 w-full h-32 mt-64 transition gradient-y-night-transparent -shift-y-96"></div>
+      </div>
+      <div class="statidc flex flex-col justify-between w-full p-32 md:max-w-408 lg:max-w-496 md:fixed md:h-screen lg:py-88 lg:pl-88 md:pr-0">
+        <div class="flex flex-col">
+          <div>
+            <h1 class="text-2xl font-bold leading-tight lg:text-4xl lg:leading-none text-zenith">Ben Thorburn</h1>
+            <div class="leading-loose">
+              <p class="mt-32" style="font-size: 15px;">
+                BSc Computer Science student with an innate interest
+                for all things, 'why'. With a specific interest in theoretical
+                computer science, Loves the simplicity and intricasys of systems
+                we encouter everyday and likes to question why things are the way
+                they are, or are not. Here you can browse through a continuously
+                updated collection of projects by Ben Thorburn.
+              </p>
+            </div>
+            <input class="search" type="text" placeholder="Search for keywords"
+                   id="s_input" onkeyup="filter()">
+          </div>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+          <nav class="text-sm font-bold uppercase text-widest hidden mt-72 md:block">
+            <ul class="flex flex-row md:flex-col md:-my-16">
+              <li class="md:my-16">
+                <a href="#one" class="inline-flex items-center hover:text-zenith transition group text-zenith tablinks"  onclick="openCity(event, 'one')">
+                  <span class="text-xs tracking-wide">01
+                  </span>
+                  <span class="inline-block w-24 h-px mx-16 -mt-px group-hover:w-48 bg-dawn group-hover:bg-zenith transition w-48 bg-zenith">
+                  </span>
+                  <span class="text-xs tracking-widest uppercase">Projects
+                  </span>
+                </a>
+              </li>
+              <li class="md:my-16">
+                <a href="#two" class="inline-flex items-center hover:text-zenith transition group tablinks" onclick="openCity(event, 'two')">
+                  <span class="text-xs tracking-wide">02
+                  </span>
+                  <span class="inline-block w-24 h-px mx-16 -mt-px group-hover:w-48 bg-dawn group-hover:bg-zenith transition">
+                  </span>
+                  <span class="text-xs tracking-widest uppercase">Art
+                  </span>
+                </a>
+              </li>
+              <li class="md:my-16">
+                <a href="#interviews" class="inline-flex items-center hover:text-zenith transition group tablinks" onclick="openCity(event, 'three')">
+                  <span class="text-xs tracking-wide">03
+                  </span>
+                  <span class="inline-block w-24 h-px mx-16 -mt-px group-hover:w-48 bg-dawn group-hover:bg-zenith transition">
+                  </span>
+                  <span class="text-xs tracking-widest uppercase">Links of interest
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+		
+		
+		
+      <div class="static p-32 md:max-w-536 lg:max-w-736 md:absolute md:right-0 lg:py-88 lg:pr-88 md:pl-0"></div>
+      <div class="fixed bottom-0 left-0 z-20 w-full h-32 pointer-events-none gradient-y-transparent-night"></div>
+      <div class="fixed top-0 left-0 z-20 w-full h-32 pointer-events-none gradient-y-night-transparent"></div>
+    </div>
+	
+	
+	
+	
+	
+	
+	<div class="tabInner">
+		<div class="mainContent w3-ul w3-margin-top" id="myUL">
+			<div id="one" class="tabcontent" style="display: block;">
+
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>University - Programming Y1</h2>
+					<h1>JUMP - A simple 'Java Processing' game</h1>
+					<p> Designed and programmed from scratch, this is my first
+						real Java project. It was built to a breif and I learned
+						most of what it took to build along the way. Built with
+						processing and designed with Blender.
+						This game has the potential for further development such as
+						the physics, mechanics and overall concept, and refinment to the program itself.
+					</p>
+					</article>
+				</section>
+				
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>University - Programdfdsming Y1</h2>
+					<h1>JUMP - A simple 'Javdsa Processing' game</h1>
+					<p> Designed and programmed from scratch, this is my first
+						real Java project. It was built to a breif and I learned
+						most of what it took to build along the way. Built with
+						processing and designed with Blender.
+						This game has the potential for further development such as
+						the physics, mechanics and overall concept, and refinment to the program itself.
+					</p>
+					</article>
+				</section>
+				
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>University - helloProgramdfdsming Y1</h2>
+					<h1>JUMP - A simple 'Javdsa Processing' game</h1>
+					<p> Designed and programmed from scratch, this is my first
+						real Java project. It was built to a breif and I learned
+						most of what it took to build along the way. Built with
+						processing and designed with Blender.
+						This game has the potential for further development such as
+						the physics, mechanics and overall concept, and refinment to the program itself.
+					</p>
+					</article>
+				</section>
+
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>University - Programdfdsming Y1</h2>
+					<h1>JUMP - A simple 'Javdsa Processing' game</h1>
+					<p> Designed and programmed from scratch, this is my first
+						real Java project. It was built to a breif and I learned
+						most of what it took to build along the way. Built with
+						processing and designed with Blender.
+						This game has the potential for further development such as
+						the physics, mechanics and overall concept, and refinment to the program itself.
+					</p>
+					</article>
+				</section>
+				
+			</div>
+			
+			<div id="two" class="tabcontent" style="display: none;">
+				<section style="max-height: -500px;">
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>
+
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>
+
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>				
+			</div>
+			
+			<div id="three" class="tabcontent" style="display: none;">
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>
+
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>
+
+				<section>
+					<div class="frost"></div>
+					<article class="v1">
+					<h2>Blender</h2>
+					<h1>Organic geometry with Blender</h1>
+					<p>
+						A collection of various heavily subvided geometric
+						creations achived inside Blender. Although fairly
+						simple to create, these shapes have a very fluid and
+						complex nature about them. Final renders of these creations
+						are displayed and some of of the processes used to create them
+						are explained.
+					</p>
+					</article>
+				</section>				
+			</div>
+		</div>
+	</div>
+    <script src="dynamic.js" defer></script>
+    <script src="a.js" defer></script>
+
+  </body>
+</html>
